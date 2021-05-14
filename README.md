@@ -1,10 +1,10 @@
 # DjangoVue-Boilarplate
 
-Create a virtual enviroment
+Create a virtual environment
 ```
 virtualenv venv
 ```
-activate virtual enviroment using 
+activate virtual environment using 
 ```
 source venv/bin/activate
 ```
