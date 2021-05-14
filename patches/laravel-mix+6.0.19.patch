@@ -1,0 +1,26 @@
+diff --git a/node_modules/laravel-mix/icons/django.png b/node_modules/laravel-mix/icons/django.png
+new file mode 100644
+index 0000000..a506964
+Binary files /dev/null and b/node_modules/laravel-mix/icons/django.png differ
+diff --git a/node_modules/laravel-mix/src/components/Notifications.js b/node_modules/laravel-mix/src/components/Notifications.js
+index c022b24..f52842a 100644
+--- a/node_modules/laravel-mix/src/components/Notifications.js
++++ b/node_modules/laravel-mix/src/components/Notifications.js
+@@ -9,13 +9,13 @@ class Notifications extends AutomaticComponent {
+             let WebpackNotifierPlugin = require('webpack-notifier');
+ 
+             return new WebpackNotifierPlugin({
+-                appID: 'Laravel Mix',
++                appID: 'Django Mix',
+ 
+-                title: 'Laravel Mix',
++                title: 'Django Mix',
+                 alwaysNotify: Config.notifications.onSuccess,
+-                timeout: false,
++                timeout: 2,
+                 hint: process.platform === 'linux' ? 'int:transient:1' : undefined,
+-                contentImage: Mix.paths.root('node_modules/laravel-mix/icons/laravel.png')
++                contentImage: Mix.paths.root('node_modules/laravel-mix/icons/django.png')
+             });
+         }
+     }

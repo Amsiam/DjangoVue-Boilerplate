@@ -1,0 +1,5 @@
+/db.sqlite3
+/mix-manifest.json
+/node_modules
+/venv
+/yarn.lock
