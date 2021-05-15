@@ -1,4 +1,4 @@
-# DjangoVue-Boilarplate
+# DjangoVue-Boilerplate
 
 Create a virtual environment
 ```
