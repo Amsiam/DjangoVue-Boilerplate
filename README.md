@@ -1,5 +1,13 @@
 # DjangoVue-Boilerplate
 
+Open tarminal and type 
+```
+git clone https://github.com/Amsiam/DjangoVue-Boilerplate.git
+```
+then 
+```
+cd DjangoVue-Boilerplate
+```
 Create a virtual environment
 ```
 virtualenv venv
